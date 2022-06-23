@@ -325,7 +325,9 @@ module tb();
       $dumpfile("test.vcd");
       $dumpvars;  
     `else
-      $fsdbDumpvars();
+      $fsdbDumpfile("top.fsdb");
+      $fsdbDumpvars(0, tb); //dump all variable
+      $fsdbDumpMDA(); //dump memory data
     `endif
   `endif
   end
