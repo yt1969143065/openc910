@@ -16,7 +16,7 @@
 #!/bin/csh
 
 #setenv TOOL_EXTENSION /tools/riscv/riscv64-elf-x86_64/bin
-setenv TOOL_EXTENSION /tools/toolchain/Xuantie-900-gcc-elf-newlib-x86_64-V2.4.0/riscv64-unknown-elf/bin
+setenv TOOL_EXTENSION /tools/toolchain/Xuantie-900-gcc-elf-newlib-x86_64-V2.4.0/bin
 echo 'Toolchain path($TOOL_EXTENSION):'
 echo "    $TOOL_EXTENSION"
 
